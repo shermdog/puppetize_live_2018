@@ -1,0 +1,14 @@
+---
+device_manager::devices:
+  cat:
+    type: cisco_ios
+    credentials:
+      address: 192.168.122.254
+      username: admin
+      password: admin
+  nexus:
+    type: cisco_nexus
+    credentials:
+      address: 192.168.122.73
+      username: admin
+      password: admin
